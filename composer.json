@@ -1,4 +1,13 @@
 {
     "name": "basic-app/site-theme-clean-blog",
-    "license": "MIT"
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BasicApp\\SiteThemeCleanBlog\\": "src/"
+        }
+    },
+    "require": {
+        "basic-app/publisher": "*",
+        "basic-app/site": "*"
+    }    
 }

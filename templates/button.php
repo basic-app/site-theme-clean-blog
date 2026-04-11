@@ -1,0 +1,1 @@
+<a class="btn btn-primary text-uppercase" href="<?= $href;?>"><?= $slot;?></a>
