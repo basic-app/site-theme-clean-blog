@@ -7,7 +7,7 @@ namespace BasicApp\SiteThemeCleanBlog\Publishers;
 
 use BasicApp\Publisher\Publisher as BasePublisher;
 
-class ThemePublisher extends BasePublisher
+class Publisher extends BasePublisher
 {
     protected $source = VENDORPATH . 'basic-app/site-theme-clean-blog/assets/';
 

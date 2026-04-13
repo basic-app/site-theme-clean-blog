@@ -5,9 +5,9 @@
  */
 namespace BasicApp\SiteThemeCleanBlog\Cells;
 
-use CodeIgniter\View\Cells\Cell;
+use BasicApp\SiteTheme\Cells\BaseSiteCard as Cell;
 
-class SiteCardCell extends Cell
+class SiteCard extends Cell
 {
     protected string $view = VENDORPATH . 'basic-app/site-theme-clean-blog/templates/card.php';
 }

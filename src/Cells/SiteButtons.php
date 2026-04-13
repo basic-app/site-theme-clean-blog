@@ -5,9 +5,9 @@
  */
 namespace BasicApp\SiteThemeCleanBlog\Cells;
 
-use CodeIgniter\View\Cells\Cell;
+use BasicApp\SiteTheme\Cells\BaseSiteButtons as Cell;
 
-class SiteButtonCell extends Cell
+class SiteButton extends Cell
 {
     protected string $view = VENDORPATH . 'basic-app/site-theme-clean-blog/templates/buttons.php';
 }

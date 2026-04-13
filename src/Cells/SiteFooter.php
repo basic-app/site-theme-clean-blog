@@ -5,9 +5,9 @@
  */
 namespace BasicApp\SiteThemeCleanBlog\Cells;
 
-use CodeIgniter\View\Cells\Cell;
+use BasicApp\SiteTheme\Cells\BaseSiteFooter as Cell;
 
-class SiteFooterCell extends Cell
+class SiteFooter extends Cell
 {
     protected string $view = VENDORPATH . 'basic-app/site-theme-clean-blog/templates/footer.php';
 }

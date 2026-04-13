@@ -7,7 +7,7 @@
         }
     },
     "require": {
-        "basic-app/publisher": "*",
-        "basic-app/site": "*"
+        "basic-app/site-theme": "*",
+        "basic-app/publisher": "*"
     }    
 }

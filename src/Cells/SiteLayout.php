@@ -5,9 +5,9 @@
  */
 namespace BasicApp\SiteThemeCleanBlog\Cells;
 
-use BasicApp\Site\Cells\BaseSiteLayoutCell;
+use BasicApp\SiteTheme\Cells\BaseSiteLayout as Cell;
 
-class SiteLayoutCell extends BaseSiteLayoutCell
+class SiteLayout extends Cell
 {
     protected string $view = VENDORPATH . 'basic-app/site-theme-clean-blog/templates/layout.php';
 }
