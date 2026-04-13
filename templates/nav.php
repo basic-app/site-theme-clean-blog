@@ -12,15 +12,6 @@
             <?= lang('Menu');?>
             <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                <?php foreach($menu as $item):?>
-                    <li class="nav-item">
-                        <a class="nav-link px-lg-3 py-3 py-lg-4" 
-                            href="<?= esc($item['url']);?>"><?= esc($item['label']);?></a>
-                    </li>
-                <?php endforeach;?>
-            </ul>
-        </div>
+        <?= view_cell('Site::navMenu', $menu);?>
     </div>
 </nav>
