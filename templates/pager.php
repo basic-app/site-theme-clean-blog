@@ -16,7 +16,7 @@ if (!$pager->hasPrevious() && !$pager->hasNext())
         </a>
     <?php endif;?>
     <?php if($pager->hasNext()):?>
-        <a class="btn btn-primary text-uppercase" href="<?= $pager->getNext();?>">
+        <a class="btn btn-primary text-uppercase ms-3" href="<?= $pager->getNext();?>">
             <?= lang('Pager.next');?>        
         </a>
     <?php endif;?>
