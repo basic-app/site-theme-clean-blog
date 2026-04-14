@@ -6,7 +6,7 @@ if (!$item_enabled)
 ?>
 <li class="nav-item">
     <?php if($item_active):?>
-        <span class="nav-link px-lg-3 py-3 py-lg-4"><?= esc($item_name);?></span>
+        <a class="nav-link active px-lg-3 py-3 py-lg-4" href="<?= $item_url;?>"><?= esc($item_name);?></a>
     <?php else:?>
         <a class="nav-link px-lg-3 py-3 py-lg-4" href="<?= $item_url;?>"><?= esc($item_name);?></a>
     <?php endif;?>

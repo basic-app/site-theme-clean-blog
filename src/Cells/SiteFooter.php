@@ -13,6 +13,8 @@ class SiteFooter extends Cell
 
     public function mount(): void
     {
+        parent::mount();
+        
         $this->copyright = str_replace('{year}', date('Y'), $this->copyright);
     }
 }

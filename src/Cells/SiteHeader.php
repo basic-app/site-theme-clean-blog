@@ -13,6 +13,8 @@ class SiteHeader extends Cell
 
     public function mount(): void
     {
+        parent::mount();
+        
         if (!$this->backgroundUrl)
         {
             $this->backgroundUrl = base_url('themes/site-clean-blog/assets/img/home-bg.jpg');
