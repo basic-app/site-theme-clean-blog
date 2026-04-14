@@ -1,3 +1,13 @@
+<?php
+if (!$item_enabled)
+{
+    return;
+}
+?>
 <li class="nav-item">
-    <a class="nav-link px-lg-3 py-3 py-lg-4" href="<?= $url;?>"><?= esc($label);?></a>
+    <?php if($item_active):?>
+        <span class="nav-link px-lg-3 py-3 py-lg-4"><?= esc($item_name);?></span>
+    <?php else:?>
+        <a class="nav-link px-lg-3 py-3 py-lg-4" href="<?= $item_url;?>"><?= esc($item_name);?></a>
+    <?php endif;?>
 </li>
