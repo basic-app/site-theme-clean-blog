@@ -9,5 +9,5 @@
     "require": {
         "basic-app/site-theme": "*",
         "basic-app/publisher": "*"
-    }    
+    }
 }
